@@ -1,5 +1,8 @@
 package DictionaryApp.UIController;
 
+import DictionaryApp.GTTS;
+import DictionaryApp.Utils;
+import com.darkprograms.speech.translator.GoogleTranslate;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDrawer;
 import com.jfoenix.controls.JFXHamburger;
@@ -10,6 +13,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
@@ -21,12 +25,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class GoogleTranslateController implements Initializable {
+    public GTTS gtts;
+
+    @FXML
+    private ImageView speakerOutput;
 
     @FXML
     private JFXDrawer navDrawer;
-
-    @FXML
-    private JFXButton speaker;
 
     @FXML
     private ChoiceBox<?> outputLanguageChoice;
@@ -38,10 +43,16 @@ public class GoogleTranslateController implements Initializable {
     private TextField inputWord;
 
     @FXML
+    private ImageView speakerInput;
+
+    @FXML
     private AnchorPane topBar;
 
     @FXML
     private ChoiceBox<?> inputLanguageChoice;
+
+    @FXML
+    private JFXButton translate;
 
     @FXML
     private JFXHamburger hamburger;
@@ -72,6 +83,24 @@ public class GoogleTranslateController implements Initializable {
 
         catch (IOException ex) {
             Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public void onClickedTranslate() {
+        String enText = inputWord.getText();
+        try {
+            String viText = GoogleTranslate.translate("vi", "en-US", enText);
+            outputWord.setText(viText);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void onClickSpeakerButton() {
+        if(Utils.netIsAvailable()) {
+            gtts.speak(inputWord.getText());
+        } else {
+            Utils.showAlertWithHeaderText("Please connect internet!!!");
         }
     }
 }
