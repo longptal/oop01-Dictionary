@@ -1,7 +1,6 @@
 package DictionaryApp.UIController;
 
-import DictionaryApp.GTTS;
-import DictionaryApp.Utils;
+import DictionaryApp.*;
 import com.darkprograms.speech.translator.GoogleTranslate;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDrawer;
@@ -10,6 +9,8 @@ import com.jfoenix.transitions.hamburger.HamburgerBackArrowBasicTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -17,15 +18,17 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class GoogleTranslateController implements Initializable {
-    public GTTS gtts;
+
 
     @FXML
     private ImageView speakerOutput;
@@ -56,7 +59,6 @@ public class GoogleTranslateController implements Initializable {
 
     @FXML
     private JFXHamburger hamburger;
-
 
 
     @Override
@@ -96,11 +98,23 @@ public class GoogleTranslateController implements Initializable {
         }
     }
 
-    public void onClickSpeakerButton() {
+    public void onClickSpeakerButtonInput() {
+        GTTS gtts = new GTTS();
         if(Utils.netIsAvailable()) {
             gtts.speak(inputWord.getText());
         } else {
             Utils.showAlertWithHeaderText("Please connect internet!!!");
         }
     }
+
+    public void onClickSpeakerButtonOutput() {
+        GTTS gtts = new GTTS();
+        if(Utils.netIsAvailable()) {
+            gtts.speak(outputWord.getText());
+        } else {
+            Utils.showAlertWithHeaderText("Please connect internet!!!");
+        }
+    }
+
+
 }
