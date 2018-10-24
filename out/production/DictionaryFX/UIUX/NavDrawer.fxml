@@ -15,7 +15,7 @@
             <Image url="@googlebanner.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="ButtonHome" prefHeight="32.0" prefWidth="150.0" text="Translate Offline">
+      <JFXButton fx:id="ButtonHome" onAction="#onClickButtonToHome" prefHeight="32.0" prefWidth="150.0" text="Translate Offline">
          <font>
             <Font name="Product Sans" size="14.0" />
          </font>
@@ -27,7 +27,7 @@
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton fx:id="ButtonGoogleTranslate" prefHeight="39.0" prefWidth="152.0" text="Google Translate">
+      <JFXButton fx:id="ButtonGoogleTranslate" onAction="#onClickButtonToGoogleTranslate" prefHeight="39.0" prefWidth="152.0" text="Google Translate">
          <font>
             <Font name="Product Sans" size="14.0" />
          </font>
