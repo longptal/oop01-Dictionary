@@ -1,23 +1,28 @@
 package DictionaryApp;/*
-* Class: Create the Array List contain new Word
-* */
+ * Class: Create the Array List contain new Word
+ * */
 
 import java.util.*;
 
 public class Dictionary {
 
-    private ArrayList<Word> WordList = new ArrayList<Word>();
+    private ArrayList<Word> WordList = new ArrayList<>();
     private HashMap<String, String> mapWords;
 
     public ArrayList<Word> getWordList() {
         return WordList;
     }
 
+    public HashMap<String, String> getMapWords() {
+        return mapWords;
+    }
+
     /*
-    Compare n first character of each WordTarget after get
-     */
+        Compare n first character of each WordTarget after get
+         */
     private class WordComparator implements Comparator<Word> {
-        public int n= 1;
+        public int n = 1;
+
         @Override
         public int compare(Word w1, Word w2) {
             return w1.getNFirstCharactersOfWordTarget(n).compareTo(w2.getNFirstCharactersOfWordTarget(n));
@@ -25,8 +30,7 @@ public class Dictionary {
     }
 
 
-    public Dictionary(){
-        WordList = new ArrayList<>();
+    public Dictionary() {
         mapWords = new HashMap<>();
     }
 
@@ -36,6 +40,7 @@ public class Dictionary {
     public boolean isEmpty() {
         return WordList.isEmpty();
     }
+
     public int size() {
         return WordList.size();
     }
@@ -45,7 +50,7 @@ public class Dictionary {
     add new word to DictionaryList with both target & explain
     */
     public void addWord(Word word) {
-        if(mapWords.get(word.getWordTarget()) == null) {
+        if (mapWords.get(word.getWordTarget()) == null) {
             WordList.add(word);
 //            System.out.println("word added: " + word.getWordTarget() + ": " + word.getWordExplain());
             mapWords.put(word.getWordTarget(), word.getWordExplain());
@@ -63,7 +68,7 @@ public class Dictionary {
 //        System.out.println("Input Word-Explain from keyboard: ");
         word.setWordExplain(sc.nextLine());
 
-        if(mapWords.get(word.getWordTarget()) == null) {
+        if (mapWords.get(word.getWordTarget()) == null) {
             WordList.add(word);
 //            System.out.println("word added: " + word.getWordTarget() + ": " + word.getWordExplain());
             mapWords.put(word.getWordTarget(), word.getWordExplain());
@@ -76,14 +81,14 @@ public class Dictionary {
     get word at locate n in the ArrayList<Word> WordList
      */
     public Word getWordAt(int index) {
-        if(index < 0) {
-            throw  new Error("Invalid value");
+        if (index < 0) {
+            throw new Error("Invalid value");
         }
-        if(WordList.size()==0) {
-            throw  new Error("Dictionary is empty");
+        if (WordList.size() == 0) {
+            throw new Error("Dictionary is empty");
         }
-        if(WordList.size() <= index) {
-            throw  new Error("Index is invalid, greater than dictionary length");
+        if (WordList.size() <= index) {
+            throw new Error("Index is invalid, greater than dictionary length");
         }
         return WordList.get(index);
     }
@@ -108,20 +113,20 @@ public class Dictionary {
     public void removeWord(Word newWord) {
         WordList.remove(newWord);
     }
-    public void removeWord(String enW) {
-        if(mapWords.get(enW) != null) {
+
+    public boolean removeWord(String enW) {
+        if (mapWords.get(enW) != null) {
             for (int i = 0; i < WordList.size(); i++) {
-                if (WordList.get(i).getWordExplain().equals(enW)) {
-                    WordList.remove(WordList.get(i));
-                    mapWords.remove(WordList.get(i));
+                if (WordList.get(i).getWordTarget().equals(enW)) {
+                    WordList.remove(i);
+                    mapWords.remove(enW);
                 }
             }
+            return true;
         }
-
-        else {
-//            System.out.println("The word is not exist.");
-        }
+        return false;
     }
+
     public void removeWord(int i) {
         WordList.remove(WordList.get(i - 1));
     }
@@ -132,15 +137,15 @@ public class Dictionary {
      */
     //Replace the oldWord by newWord
     public void modifyWord(Word oldW, Word newW) {
-        if(mapWords.get(oldW.getWordTarget()) != null) {
+        if (mapWords.get(oldW.getWordTarget()) != null) {
             removeWord(oldW);
             addWord(newW);
             sortWordList();
-        }
-        else {
+        } else {
 //            System.out.println("The Word does not exist!");
         }
     }
+
     //Modify the Target or Explain of a existWord
     public void modifyWord(String enW) {
         if (mapWords.get(enW) != null) {
@@ -149,14 +154,12 @@ public class Dictionary {
                 if (WordList.get(i).getWordTarget().equals(enW)) {
 //                    System.out.println("Input the new Target for this word: ");
                     WordList.get(i).setWordTarget(sc.nextLine());
-                }
-                else if (WordList.get(i).getWordExplain().equals(enW)) {
+                } else if (WordList.get(i).getWordExplain().equals(enW)) {
 //                    System.out.println("Input the new Explain for this word: ");
                     WordList.get(i).setWordExplain(sc.nextLine());
                 }
             }
-        }
-        else {
+        } else {
 //            System.out.println("The Word does not exist!");
         }
     }
@@ -165,35 +168,27 @@ public class Dictionary {
     /*
     search first n sub word
      */
-    public LinkedList<String> searchFirstSubWord(String sub) {
+    public LinkedList<Word> searchFirstSubWord(String sub) {
         WordComparator wordComparator = new WordComparator();
         wordComparator.n = sub.length();
         int retValue = Collections.binarySearch(WordList, new Word(sub, " "), wordComparator);
-        LinkedList<String> retList = new LinkedList<>();
-        if(retValue >= 0) {
-            retList.addFirst(getWordAt(retValue).getWordTarget());
-
+        LinkedList<Word> retList = new LinkedList<>();
+        if (retValue >= 0) {
+            retList.addFirst(getWordAt(retValue));
             int begin, end;
-            begin = retValue -1 >= 0 ? retValue -1 : retValue;
-            end = retValue +1 < WordList.size() ? retValue +1 : retValue;
-//            System.out.println("begin: " + Integer.toString(begin));
-//
-//            System.out.println("end: " + Integer.toString(end));
-//            System.out.println("sub: " + getWordAt(begin).getNFirstCharactersOfWordTarget(sub.length()) + "..");
-            while(getWordAt(begin).getNFirstCharactersOfWordTarget(sub.length()).equals(sub) && begin >= 0
+            begin = retValue - 1 >= 0 ? retValue - 1 : retValue;
+            end = retValue + 1 < WordList.size() ? retValue + 1 : retValue;
+            while (getWordAt(begin).getNFirstCharactersOfWordTarget(sub.length()).equals(sub) && begin >= 0
                     && begin < retValue) {
-//                System.out.println("equals begin");
-                retList.addFirst(getWordAt(begin).getWordTarget());
+                retList.addFirst(getWordAt(begin));
                 --begin;
-                if(begin < 0) break;
-
+                if (begin < 0) break;
             }
-            while(getWordAt(end).getNFirstCharactersOfWordTarget(sub.length()).equals(sub) && end < WordList.size()
+            while (getWordAt(end).getNFirstCharactersOfWordTarget(sub.length()).equals(sub) && end < WordList.size()
                     && retValue < end) {
-//                System.out.println("equals end");
-                retList.addLast(getWordAt(end).getWordTarget());
+                retList.addLast(getWordAt(end));
                 ++end;
-                if(end >= WordList.size()) break;
+                if (end >= WordList.size()) break;
             }
             return retList;
         }

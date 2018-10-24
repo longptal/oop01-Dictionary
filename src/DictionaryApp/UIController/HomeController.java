@@ -6,6 +6,7 @@ import com.jfoenix.controls.JFXDrawer;
 import com.jfoenix.controls.JFXHamburger;
 import com.jfoenix.controls.JFXListView;
 import com.jfoenix.transitions.hamburger.HamburgerBackArrowBasicTransition;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -19,26 +20,29 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static DictionaryApp.DictionaryApplication.dictionaryManagement;
+import static javafx.scene.input.KeyCode.ENTER;
+
 public class HomeController implements Initializable {
 
     public static final int M = 100;
-    private int curI =0;
+    private int curI = 0;
     private ArrayList<Word> wordList;
-    private DictionaryManagement dictionaryManagement;
     private GTTS gtts;
     private Mode curMode = Mode.Search;
-    private StringBuilder curEnWord;
-    public static  boolean isSearch = true;
+    public static boolean isSearch = true;
 
 
     @FXML
@@ -54,7 +58,7 @@ public class HomeController implements Initializable {
     private JFXButton ButtonAddWord;
 
     @FXML
-    private JFXListView<?> showAllWord;
+    private JFXListView<Label> showAllWord;
 
     @FXML
     private AnchorPane topBar;
@@ -98,15 +102,81 @@ public class HomeController implements Initializable {
 
                 if (navDrawer.isOpened()) {
                     navDrawer.close();
-                }
-                else {
+                } else {
                     navDrawer.open();
                 }
             });
-        }
-
-        catch (IOException ex) {
+            searchOnKeyRelease();
+        } catch (IOException ex) {
             Logger.getLogger(HomeController.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+
+    public void searchOnKeyRelease() {
+        inputBox.setOnKeyReleased(event -> {
+            switch (event.getCode()) {
+                case ENTER:
+                    break;
+                default:
+                    if (isSearch) {
+                        isSearch = false;
+                        try {
+                            Platform.runLater(() -> {
+                                        StringBuilder curEnWord = new StringBuilder(inputBox.getText().trim().toLowerCase().replace(" +", " ").replace("\n", ""));
+                                        searchFirstSubWordAndUpdateListView(curEnWord.toString());
+                                        isSearch = true;
+                                    }
+                            );
+
+                            // start the thread
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    break;
+            }
+        });
+    }
+
+    private void searchFirstSubWordAndUpdateListView(String searchEnW) {
+        LinkedList<Word> result = dictionaryManagement.searchFirstSubWord(searchEnW);
+        showAllWord.getItems().clear();
+        result.forEach(word -> {
+            Label label = new Label(word.getWordTarget());
+            label.setOnMousePressed(event -> {
+                try {
+                    FXMLLoader loader = new FXMLLoader(getClass().getResource("../../UIUX/CRUD1Word.fxml"));
+                    Parent addWord = loader.load();
+                    Scene addWord_scene = new Scene(addWord);
+                    Stage addWord_stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+                    addWord_stage.setScene(addWord_scene);
+                    addWord_stage.show();
+                    CRUD1WordController crud1WordController = loader.getController();
+                    crud1WordController.getShowWordTarget().setText(word.getWordTarget());
+                    crud1WordController.getShowWordExplain().setText(word.getWordExplain());
+                    crud1WordController.getButtonSaveModify().setOnAction(event1 -> {
+                        String enWord = crud1WordController.showWordTarget.getText();
+                        String viWord = crud1WordController.showWordExplain.getText();
+                        if (enWord.length() == 0) {
+                            crud1WordController.showWordTarget.setText("English word is empty");
+                            return;
+                        }
+                        else if (viWord.length() == 0) {
+                            crud1WordController.showWordExplain.setText("Vietnamese word is empty");
+                            return;
+                        }
+                        else {
+                            word.setWordTarget(enWord);
+                            word.setWordExplain(viWord);
+                            dictionaryManagement.dictionaryExportToFile();
+                        }
+                    });
+                } catch (Exception e) {
+                    System.out.println();
+                }
+
+            });
+            showAllWord.getItems().add(label);
+        });
     }
 }

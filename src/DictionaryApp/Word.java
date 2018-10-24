@@ -55,7 +55,8 @@ public class Word {
         }
 
         else {
-            throw new Error("number element must >= 1");
+            return "";
+//            throw new Error("number element must >= 1");
         }
     }
 }

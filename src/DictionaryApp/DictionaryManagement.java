@@ -1,6 +1,8 @@
 package DictionaryApp;
 
 import java.io.*;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -10,7 +12,7 @@ public class DictionaryManagement {
     public Dictionary getDictionary() {
         return dictionary;
     }
-    private File file = new File("src\\New Dict.txt");
+    private File file = new File("src/newdict.txt");
 
     public DictionaryManagement() {
         dictionary = new Dictionary();
@@ -41,10 +43,8 @@ public class DictionaryManagement {
     public void insertFromFile() {
         try
         {
-            Scanner scan = new Scanner(new BufferedReader(new FileReader(file)));
-
             String line = null;
-
+            Scanner scan = new Scanner(new BufferedReader(new FileReader(file)));
             while (scan.hasNext())
             {
                 line = scan.nextLine();
@@ -89,7 +89,7 @@ public class DictionaryManagement {
         }
         catch (Exception ex)
         {
-//            System.out.println("Error: File not found!");
+            System.out.println(ex);
         }
     }
 
@@ -106,7 +106,8 @@ public class DictionaryManagement {
             {
                 Word word = dictionary.getWordAt(i);
                 fileWriter.write("@" + word.getWordTarget() + "\n"
-                        + word.getWordExplain() + "\n");
+                        + word.getWordExplain() + "\n\n");
+
             }
             fileWriter.close();
         }
@@ -138,7 +139,7 @@ public class DictionaryManagement {
     /*
     Search First n sub words
     */
-    public LinkedList<String> searchFirstSubWord(String sub) {
+    public LinkedList<Word> searchFirstSubWord(String sub) {
 //        System.out.println("search with First Sub Word: ");
         return dictionary.searchFirstSubWord(sub);
     }

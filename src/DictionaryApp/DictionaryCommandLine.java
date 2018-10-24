@@ -71,13 +71,13 @@ public class DictionaryCommandLine {
 
     /*dictionarySearcher*/
     public void dictionarySearcher() {
-        System.out.println("Input sub start word: ");
-        Scanner scanner = new Scanner(System.in);
-        String sc = scanner.nextLine();
-        LinkedList<String> retList = dictionaryManagement.searchFirstSubWord(sc);
-        System.out.println("Found words:");
-        for(String s: retList) {
-            System.out.println(s);
-        }
+//        System.out.println("Input sub start word: ");
+//        Scanner scanner = new Scanner(System.in);
+//        String sc = scanner.nextLine();
+//        LinkedList<String> retList = dictionaryManagement.searchFirstSubWord(sc);
+//        System.out.println("Found words:");
+//        for(String s: retList) {
+//            System.out.println(s);
+//        }
     }
 }
