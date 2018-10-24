@@ -22,7 +22,6 @@ public class GTTS {
     //Create a Synthesizer instance
     private SynthesiserV2 synthesizer = new SynthesiserV2("AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw");
     private String lang = "en-US";
-    public byte[] data = null;
     public InputStream is = null;
 
 

@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class DictionaryApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("../UIUX/GoogleTranslate.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../UIUX/Home.fxml"));
 
         Scene scene = new Scene(root);
         primaryStage.setTitle("UET Translate");

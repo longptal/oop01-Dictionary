@@ -14,11 +14,6 @@
       <AnchorPane prefHeight="43.0" prefWidth="300.0" style="-fx-background-color: #880000;" BorderPane.alignment="CENTER">
          <children>
             <JFXHamburger fx:id="hamburger" layoutX="14.0" layoutY="12.0" />
-            <JFXTextArea fx:id="WordTarget" focusColor="WHITE" layoutX="76.0" layoutY="10.0" prefHeight="24.0" prefWidth="128.0" unFocusColor="#722f2f">
-               <font>
-                  <Font name="Product Sans Bold" size="18.0" />
-               </font>
-            </JFXTextArea>
          </children>
       </AnchorPane>
    </top>

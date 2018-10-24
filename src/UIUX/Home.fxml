@@ -64,7 +64,7 @@
                         <Pane layoutX="7.0" layoutY="117.0" prefHeight="369.0" prefWidth="287.0">
                             <children>
                                 <JFXListView fx:id="showAllWord" layoutX="1.0" layoutY="3.0" prefHeight="306.0" prefWidth="285.0" />
-                        <JFXButton fx:id="ButtonAddWord" layoutX="85.0" layoutY="327.0" style="-fx-background-color: #00FA9A;" text="Add New Word">
+                        <JFXButton fx:id="ButtonAddWord" layoutX="85.0" layoutY="327.0" style="-fx-background-color: #00FA9A;" onAction="#onClickAddWord" text="Add New Word">
                            <font>
                               <Font name="Product Sans Bold" size="14.0" />
                            </font>
