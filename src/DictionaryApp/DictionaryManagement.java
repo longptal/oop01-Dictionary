@@ -45,7 +45,7 @@ public class DictionaryManagement {
         {
             String line = null;
             Scanner scan = new Scanner(new BufferedReader(new FileReader(file)));
-            while (scan.hasNext())
+            while (scan.hasext())
             {
                 line = scan.nextLine();
                 String target = "";

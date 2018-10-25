@@ -1,33 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DictionaryFX:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="BTL - 2nd Commit - No UI">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="BTL-Done">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Dictionary$WordComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Dictionary$WordComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Dictionary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryCommandLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryCommandLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/CRUD1WordController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/CRUD1WordController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/New Dict.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/CRUD1Word.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/CRUD1Word.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/GoogleTranslate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/GoogleTranslate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/NavDrawer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/NavDrawer.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/CRUD1WordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/GoogleTranslateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/UIController/NavDrawerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/CRUD1Word.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/GoogleTranslate.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/NavDrawer.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/googlebanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/logovnu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/searchs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/setting (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryFX/UIUX/speaker.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DictionaryApp/DictionaryCommandLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/DictionaryCommandLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD1WordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD1WordController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/UIController/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/UIController/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/New Dict.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UIUX/CRUD1Word.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIUX/CRUD1Word.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UIUX/GoogleTranslate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIUX/GoogleTranslate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UIUX/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIUX/Home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UIUX/NavDrawer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIUX/NavDrawer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD1WordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/CRUD1WordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/UIController/GoogleTranslateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/GoogleTranslateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/UIController/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DictionaryApp/UIController/NavDrawerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/NavDrawerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/CRUD1Word.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/CRUD1Word.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/GoogleTranslate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/GoogleTranslate.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/NavDrawer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/NavDrawer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/book.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/googlebanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/googlebanner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/logovnu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/logovnu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/searchs.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/searchs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/setting (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/setting (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UIUX/speaker.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DictionaryApp/speaker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newdict2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/newdict2.txt" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,6 +59,20 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
@@ -145,40 +178,43 @@
     <session id="482232026">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.126" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
           <entry key="fxml" value="76" />
-          <entry key="java" value="1203" />
-          <entry key="txt" value="3" />
+          <entry key="java" value="1502" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="1203" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="1502" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="fxml" value="4" />
-          <entry key="java" value="16" />
-          <entry key="txt" value="5" />
+          <entry key="fxml" value="5" />
+          <entry key="java" value="27" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="16" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="27" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -189,143 +225,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UIUX/GoogleTranslate.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="86" column="52" lean-forward="true" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UIUX/CRUD1Word.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="64" column="182" selection-start-line="64" selection-start-column="182" selection-end-line="64" selection-end-column="182" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UIUX/Home.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD1WordController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3825#3826#0" expanded="true" />
-                <element signature="e#3857#3858#0" expanded="true" />
-                <element signature="e#3910#3911#0" expanded="true" />
-                <element signature="e#3952#3953#0" expanded="true" />
-                <element signature="e#3995#3996#0" expanded="true" />
-                <element signature="e#4034#4035#0" expanded="true" />
-                <element signature="e#4098#4099#0" expanded="true" />
-                <element signature="e#4149#4150#0" expanded="true" />
-                <element signature="e#4192#4193#0" expanded="true" />
-                <element signature="e#4229#4230#0" expanded="true" />
-                <element signature="e#4291#4292#0" expanded="true" />
-                <element signature="e#4343#4344#0" expanded="true" />
-                <element signature="e#4382#4383#0" expanded="true" />
-                <element signature="e#4417#4418#0" expanded="true" />
-                <element signature="e#4473#4474#0" expanded="true" />
-                <element signature="e#4516#4517#0" expanded="true" />
-                <element signature="e#4560#4561#0" expanded="true" />
-                <element signature="e#4598#4599#0" expanded="true" />
-                <element signature="e#4662#4663#0" expanded="true" />
-                <element signature="e#4716#4717#0" expanded="true" />
-                <element signature="e#4758#4759#0" expanded="true" />
-                <element signature="e#4790#4791#0" expanded="true" />
-                <element signature="e#4846#4847#0" expanded="true" />
-                <element signature="e#4888#4889#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryManagement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#4220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
+            <state relative-caret-position="279">
+              <caret line="140" column="22" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="22" />
               <folding>
                 <element signature="e#275#276#0" expanded="true" />
                 <element signature="e#306#307#0" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#389#390#0" expanded="true" />
+                <element signature="method#modifyWord#1;class#Dictionary#0" />
+                <element signature="method#searchFirstSubWord#0;class#Dictionary#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DictionaryApp/UIController/HomeController.java">
+        <entry file="file://$PROJECT_DIR$/src/DictionaryApp/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+            <state relative-caret-position="284">
+              <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#initialize#0;class#HomeController#0" />
               </folding>
             </state>
           </provider>
@@ -347,6 +270,8 @@
       <find>speakẻ</find>
       <find>add</find>
       <find>list</find>
+      <find>fxml</find>
+      <find>showAllWord</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -360,7 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/DictionaryFX/Controller.java" />
         <option value="$PROJECT_DIR$/src/DictionaryFX/DictionaryManagement.java" />
@@ -373,8 +297,6 @@
         <option value="$PROJECT_DIR$/src/UIUX/DictionaryCSS.css" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/FXMLDocumentController.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryFlowController.java" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryCommandLine.java" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/Main.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/Mode.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/Utills.java" />
         <option value="$PROJECT_DIR$/src/UIUX/style.css" />
@@ -390,25 +312,30 @@
         <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/DictionaryApplication.java" />
         <option value="$PROJECT_DIR$/src/UIUX/YourLibrary.fxml" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/YourLibraryController.java" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/GoogleTranslateController.java" />
         <option value="$PROJECT_DIR$/src/UIUX/CRUD.fxml" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/GTTS.java" />
         <option value="$PROJECT_DIR$/src/UIUX/GoogleTranslate.fxml" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/WordLabel.java" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/GoogleTranslateController.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD.java" />
         <option value="$PROJECT_DIR$/src/UIUX/NavDrawer.fxml" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/NavDrawerController.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/Word.java" />
-        <option value="$PROJECT_DIR$/src/newdict2.txt" />
         <option value="$PROJECT_DIR$/src/UIUX/CRUD1Word.fxml" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD1WordController.java" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java" />
-        <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/Home.fxml" />
         <option value="$PROJECT_DIR$/src/UIUX/Home.fxml" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/NavDrawerController.java" />
         <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/Main.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryCommandLine.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/UIController/GoogleTranslateController.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/NavDrawerController.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/GoogleTranslateController.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/CRUD1WordController.java" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/newdict2.txt" />
+        <option value="$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java" />
       </list>
     </option>
   </component>
@@ -436,7 +363,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -447,45 +373,13 @@
             <path>
               <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
               <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
               <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="DictionaryFX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="DictionaryFX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DictionaryApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UIController" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop01-Dictionary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="UIUX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop01-Dictionary" type="b2602c69:ProjectViewProjectNode" />
@@ -495,6 +389,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,11 +402,11 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540413939663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540443096257" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jl1.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -520,18 +415,18 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="DictionaryApp" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\images" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pham Long\Documents\Code\Java\oop01-Dictionary\src\DictionaryApp" />
+      <recent name="C:\Users\Pham Long\Documents\Code\Java\oop01-Dictionary\src\DictionaryApp\UIController" />
+      <recent name="C:\Users\Pham Long\Documents\Code\Java\oop01-Dictionary\src\UIUX" />
+      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\src\UIUX" />
+      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\src\DictionaryApp\UIController" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="DictionaryFX" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Pham Long\Documents\Code\Java\oop01-Dictionary\src\UIUX" />
-      <recent name="C:\Users\Pham Long\Documents\Code\Java\oop01-Dictionary\src\DictionaryApp\UIController" />
-      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\src\UIUX" />
-      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\src\DictionaryApp\UIController" />
-      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\src\DictionaryApp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pham Long\Documents\Code\Java\DictionaryFX\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -688,7 +583,9 @@
       <workItem from="1540304469894" duration="5375000" />
       <workItem from="1540325192501" duration="6500000" />
       <workItem from="1540353937132" duration="3107000" />
-      <workItem from="1540389935816" duration="18807000" />
+      <workItem from="1540389935816" duration="19723000" />
+      <workItem from="1540434502764" duration="8239000" />
+      <workItem from="1540448348894" duration="3952000" />
     </task>
     <task id="LOCAL-00001" summary="BTL - 2nd Commit - No UI">
       <created>1540322322046</created>
@@ -711,17 +608,30 @@
       <option name="project" value="LOCAL" />
       <updated>1540390226996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="BTL-Done">
+      <created>1540413983753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540413983753</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BTL-Done">
+      <created>1540414050865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540414050865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120068000" />
+    <option name="totallyTimeSpent" value="133175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22356495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22960725" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -730,7 +640,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3735726" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37194127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -741,14 +651,14 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32952693" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32626426" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.32626426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32930514" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -796,6 +706,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -803,31 +739,25 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="BTL - 2nd Commit - No UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="BTL - 2nd Commit - No UI" />
+    <MESSAGE value="BTL-Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="BTL-Done" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryFlowController.java" />
     <entry file="file://$PROJECT_DIR$/src/UIUX/style.css" />
     <entry file="file://$PROJECT_DIR$/src/UIUX/search.png" />
-    <entry file="file://$PROJECT_DIR$/src/UIUX/book.png">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/book.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIUX/googlebanner.png">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/googlebanner.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UIUX/Menu android.png" />
-    <entry file="file://$PROJECT_DIR$/src/UIUX/searchs.png">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/searchs.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UIUX/AdvanceGoogleTranslate.java" />
@@ -835,7 +765,7 @@
     <entry file="file://$PROJECT_DIR$/src/UIUX/ModifyWord.fxml" />
     <entry file="file://$PROJECT_DIR$/src/UIUX/AdvanceGoogleTranslate.fxml" />
     <entry file="file://$PROJECT_DIR$/src/UIUX/usercircle.png" />
-    <entry file="file://$PROJECT_DIR$/src/UIUX/setting (2).png">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/setting (2).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/UIUX/YourLibrary.fxml" />
@@ -845,26 +775,11 @@
     <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryApplication.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/UIUX/NavDrawer.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="132" selection-start-line="12" selection-start-column="132" selection-end-line="12" selection-end-column="132" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/UIUX/NavDrawer.fxml" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="304" column="25" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Home.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryCommandLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -876,21 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/UIUX/Home.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/UIUX/Home.fxml" />
     <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Mode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -917,33 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newdict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="80" column="15" lean-forward="true" selection-end-line="80" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/UIController/GoogleTranslateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="107" column="5" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/UIController/NavDrawerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DictionaryApp/GTTS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -961,7 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIUX/NavDrawer.fxml">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/NavDrawer.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
@@ -969,139 +843,166 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Dictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/GoogleTranslate.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newdict2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/newdict2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIUX/GoogleTranslate.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="86" column="52" lean-forward="true" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+        <state relative-caret-position="1376">
+          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/UIController/CRUD1WordController.java">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/CRUD1Word.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3825#3826#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
-            <element signature="e#3910#3911#0" expanded="true" />
-            <element signature="e#3952#3953#0" expanded="true" />
-            <element signature="e#3995#3996#0" expanded="true" />
-            <element signature="e#4034#4035#0" expanded="true" />
-            <element signature="e#4098#4099#0" expanded="true" />
-            <element signature="e#4149#4150#0" expanded="true" />
-            <element signature="e#4192#4193#0" expanded="true" />
-            <element signature="e#4229#4230#0" expanded="true" />
-            <element signature="e#4291#4292#0" expanded="true" />
-            <element signature="e#4343#4344#0" expanded="true" />
-            <element signature="e#4382#4383#0" expanded="true" />
-            <element signature="e#4417#4418#0" expanded="true" />
-            <element signature="e#4473#4474#0" expanded="true" />
-            <element signature="e#4516#4517#0" expanded="true" />
-            <element signature="e#4560#4561#0" expanded="true" />
-            <element signature="e#4598#4599#0" expanded="true" />
-            <element signature="e#4662#4663#0" expanded="true" />
-            <element signature="e#4716#4717#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4790#4791#0" expanded="true" />
-            <element signature="e#4846#4847#0" expanded="true" />
-            <element signature="e#4888#4889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryManagement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#4220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIUX/CRUD1Word.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="1024">
           <caret line="64" column="182" selection-start-line="64" selection-start-column="182" selection-end-line="64" selection-end-column="182" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java">
+    <entry file="file://$PROJECT_DIR$/out/production/DictionaryFX/DictionaryApp/DictionaryManagement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="128">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1005" column="19" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Home.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/CRUD1WordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIUX/Home.fxml">
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/GoogleTranslateController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/UIController/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        <state relative-caret-position="256">
+          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryCommandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/NavDrawerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/newdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="267" column="52" lean-forward="true" selection-start-line="99" selection-end-line="267" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newdict2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1181">
+          <caret line="168" column="52" selection-start-line="168" selection-start-column="52" selection-end-line="168" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/newdict2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/DictionaryManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="77219" column="8" lean-forward="true" selection-start-line="77219" selection-start-column="8" selection-end-line="77219" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="140" column="22" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="22" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="method#modifyWord#1;class#Dictionary#0" />
+            <element signature="method#searchFirstSubWord#0;class#Dictionary#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DictionaryApp/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="153" column="58" lean-forward="true" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialize#0;class#HomeController#0" />
           </folding>
         </state>
       </provider>
@@ -1111,11 +1012,17 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>DictionaryFX:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -6,7 +6,7 @@ import java.nio.charset.Charset;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.setProperty("file.encoding", "UTF-8");
         try {
             Field charset = Charset.class.getDeclaredField("defaultCharset");

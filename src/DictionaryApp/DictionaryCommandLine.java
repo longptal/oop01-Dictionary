@@ -1,5 +1,6 @@
 package DictionaryApp;
 
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -46,8 +47,7 @@ public class DictionaryCommandLine {
 
 
     /*Dictionary Advanced Function*/
-    public void dictionaryAdvanced()
-    {
+    public void dictionaryAdvanced() throws IOException {
         dictionaryManagement.insertFromFile();
         this.showAllWords();
         dictionaryManagement.dictionaryLookup();
